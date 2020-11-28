@@ -1,5 +1,6 @@
 ---
 title: "About"
+image: mirror-plant.jpg
 date: 2020-08-28T18:45:57+08:00
 draft: false
 ---
@@ -16,7 +17,7 @@ By the way I'm proud to stand as a MtF. As I got some vital help and care from t
 
 
 # Contact
-You can find me via email: wu_yuxuan201@outlook.com  or phone: (+86)13871326386
+You can find me via email: wu_yuxuan201@outlook.com or sjtu_bowoatlas@sjtu.edu.cn (will probably expire in 2021).
 
 Here are some social medias I often use:
 

@@ -1,7 +1,6 @@
 
 # To generate site: hugo --theme=hyde --baseUrl="https://www.boa-sahiro.one/"
 
-
 # Site settings
 languageCode = "en-us"
 title = "Yuxuan Wu's Homepage"
@@ -79,9 +78,9 @@ disqusShortname = ""
     #  url = "blogs"
 
     # Button Style 2
-    # [[params.navigation.button2]]
-    #  name = "Log In"
-    #  url = "#"
+    [[params.navigation.button2]]
+     name = "Sahiro Notes"
+     url = "/sahiro_notes"
 
 
   # Banner section
@@ -90,8 +89,6 @@ disqusShortname = ""
     # the 'static/img' folder.
     title = "Welcome to Yuxuan Wu's Homepage"
     subtitle = "Music Researcher, Coder, Singer-songwriter and Music Producer"
-    buttonText = ""
-
 
   # Tiles Section
   [params.tiles]
@@ -101,25 +98,25 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Curriculum Vitae"
       # subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
+      image = "laptop-flowers.jpg"
       url = "cv/YuxuanWu.pdf"
 
     [[params.tiles.showcase]]
       title = "Music Works"
       # subtitle = "Feugiat Amet Tempus"
-      image = "pic02.jpg"
+      image = "flowers-on-piano.jpg"
       url = "https://music.apple.com/cn/artist/bowofatlas/1474860092"
 
     [[params.tiles.showcase]]
       title = "Experiences"
       # subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
+      image = "map-pins.jpg"
       url = "exp/exp"
 
     [[params.tiles.showcase]]
       title = "About"
       # subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
+      image = "mirror-plant.jpg"
       url = "about/about"
 
     # You can make more showcases by copy and pasting the code above
@@ -134,14 +131,14 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = false
-    title = "Massa libero"
+    # title = ""
     subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
     Mauris aliquet magna magna sed nunc rhoncus pharetra. 
     Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
     buttonText = "Get Started"
-    url = "blogs"
+    url = "sahiro_notes"
 
 
   # Contact section
@@ -200,3 +197,8 @@ disqusShortname = ""
       text = "Address: No.800 Dongchuan Rd, Minhang, Shanghai, China"
       url= ""
       alt = ""
+
+
+    # [[params.footer.quicklinks]]
+    #   text = "Sahiro Notes: "
+    #   url= "/sahiro_notes"
